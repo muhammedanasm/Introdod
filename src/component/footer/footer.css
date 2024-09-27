@@ -1,0 +1,239 @@
+.footer-parent {
+  background: linear-gradient(
+    140.35deg,
+    #170c34 14.46%,
+    #482084 58.66%,
+    #3a86ff 117.61%
+  );
+  padding: 50px 0px;
+}
+.footer-bottom {
+  border-top: 1px solid #69489a70;
+  border-bottom: 1px solid #69489a70;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.privacy-terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 8px;
+}
+.footer-end {
+  margin: 20px 0px;
+  color: #c7c5ce;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 15px;
+}
+.copyright {
+  text-align: center;
+}
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.footer-head-center p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.inp {
+  position: relative;
+}
+.inp input {
+  width: 100%;
+  background: #fff;
+  backdrop-filter: blur(4px);
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 32px;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+}
+.inp img {
+  position: absolute;
+  top: 5%;
+  right: 1%;
+}
+.inp input::placeholder {
+  color: #9b97a8;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.Products h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.Mobileapp h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.Platform h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.Resourses h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.section-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.p-lists {
+  font-family: var(--font-family-primary);
+  font-weight: 300;
+  color: #c7c5ce;
+  line-height: 24px;
+}
+.p-lists p {
+  padding: 5px 0px;
+}
+.appstores {
+  margin-top: 15px;
+}
+.p-lists p span {
+  color: #bfbaff;
+  font-size: 10px;
+  position: relative;
+  top: -6px;
+  left: 2px;
+}
+
+.laguage {
+  text-align: end;
+}
+.laguage2 {
+  text-align: end;
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  .footer-section {
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+  .footer-head {
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    gap: 12px;
+  }
+  .social-media {
+    position: relative;
+    left: 30%;
+  }
+  .laguage2 {
+    text-align: end;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+  .mob-apps {
+    display: flex;
+    gap: 10px;
+  }
+  .mob-apps img {
+    max-width: 130px;
+  }
+  .appstores {
+    margin-top: 0px;
+  }
+  .footer-bottom img {
+    max-width: 100px;
+  }
+  .footer-bottom {
+    gap: 15px;
+  }
+  .privacy-terms {
+    gap: 15px;
+  }
+  .Mobileapp h3 {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .footer-end {
+    font-size: 14px;
+  }
+  .section-title {
+    border-bottom: 1px solid #ffffff82;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .footer-head-center p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-section .p-lists {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .footer-section .collapsible h3 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-section .p-lists.open {
+    display: block;
+    max-height: 500px; /* Set to any suitable height */
+  }
+  .footer-section .arrow-icon {
+    font-size: 14px;
+    margin-left: 10px;
+    display: inline-block; /* Show icon on mobile */
+  }
+}
+
+/* Desktop behavior (show sections by default) */
+@media (min-width: 769px) {
+  .footer-section .p-lists {
+    display: block; /* Show the lists without collapsible behavior */
+  }
+
+  .footer-section .collapsible h3 {
+    cursor: default; /* Remove pointer cursor */
+  }
+  .footer-section .arrow-icon {
+    display: none; /* Hide icon on desktop */
+  }
+}

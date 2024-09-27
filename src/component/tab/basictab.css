@@ -1,0 +1,287 @@
+.tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+  color: #361863 !important;
+  font-family: var(--font-family) !important;
+  font-weight: 600 !important;
+  background: transparent !important;
+  border: 1px solid #361863 !important;
+  border-radius: 50px !important;
+  border-radius: 50px !important;
+  padding: 20px 15px 20px 5px !important;
+  height: 45px !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+.tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #fff !important;
+  font-family: var(--font-family) !important;
+  font-weight: 600 !important;
+  background: #482084 !important;
+  border: 1px solid #361863 !important;
+  border-radius: 50px !important;
+  border-radius: 50px !important;
+  padding: 20px 15px 20px 5px !important;
+  height: 45px !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+/* HR Managers (background: #3A86FF) */
+.tab-section .MuiTab-root.hr-tab.Mui-selected {
+  background: #3a86ff !important;
+  border: 1px solid #3a86ff !important;
+}
+
+/* Line Managers (custom border style and colors) */
+.tab-section .MuiTab-root.line-manager-tab.Mui-selected {
+  background: #482084 !important;
+  border: 1px solid #361863 !important;
+  border-radius: 50px !important;
+  color: #fff !important;
+}
+.tabsec1 {
+  padding-left: 25px;
+}
+
+/* Employees (background: #FF8100) */
+.tab-section .MuiTab-root.employee-tab.Mui-selected {
+  background: #ff8100 !important;
+  border: 1px solid #ff8100 !important;
+}
+.tab-section .css-1sj2jcg-MuiTabs-indicator {
+  background: transparent !important;
+}
+.tab-section .css-1gsv261 {
+  border: none !important;
+}
+.tab-section .css-heg063-MuiTabs-flexContainer {
+  gap: 15px !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.hr-base {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #a4c7ff;
+  padding: 30px 0px;
+}
+.Hrtab-parent {
+  display: grid;
+  grid-template-columns: 0.52fr 2fr;
+  gap: 25px;
+}
+.hr-info {
+  border: 1px solid #a4c7ff;
+  background: #fff;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 32px;
+}
+.hr-info-m1 {
+  border: 1px solid #ab98c6;
+  background: #fff;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 32px;
+  left: 8%;
+}
+.hr-info-em {
+  border: 1px solid #ffc58a;
+  background: #fff;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 32px;
+  left: 15%;
+}
+.hr-contents-em {
+  padding: 35px 0px;
+  border-bottom: 1px solid #ffc58a;
+}
+.card02 {
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  left: 40px;
+}
+.card02m1 {
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  left: 0px;
+}
+.card03 {
+  position: absolute;
+  top: 21%;
+  z-index: -2;
+  left: 95px;
+}
+.card03em {
+  position: absolute;
+  top: 21%;
+  z-index: -2;
+  left: 0px;
+}
+.card02em {
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  left: 40px;
+}
+.card03m2 {
+  position: absolute;
+  top: 21%;
+  z-index: -2;
+  left: 95px;
+}
+.hr-right {
+  position: relative;
+  width: 730px;
+}
+.hr-base p {
+  color: #361863;
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+}
+.z-card02m1 {
+  display: none;
+}
+.z-card02m2 {
+  display: none;
+}
+.card02emmob {
+  display: none;
+}
+.card03emmob {
+  display: none;
+}
+.hr-contents {
+  padding: 35px 0px;
+  border-bottom: 1px solid #a4c7ff;
+}
+.hr-contents p {
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  color: #433a5b;
+}
+.mob-card02 {
+  display: none;
+}
+.mob-card03 {
+  display: none;
+}
+.hr-contents-em p {
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  color: #433a5b;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .Hrtab-parent {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .hrimg {
+    display: none;
+  }
+  .tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    width: 115px !important;
+  }
+  .tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+    width: 115px;
+  }
+  .tabsec1 {
+    padding-left: 0px;
+  }
+  .tab-section .css-heg063-MuiTabs-flexContainer {
+    gap: 0px !important;
+  }
+  .tabsec1 img {
+    max-width: 30px;
+  }
+  .tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    font-size: 10px;
+  }
+  .tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+    font-size: 10px;
+  }
+  .tab-section .MuiTab-root.hr-tab.Mui-selected {
+    background: transparent !important;
+    border: none !important;
+    color: #241042 !important;
+  }
+
+  .tab-section .css-1sj2jcg-MuiTabs-indicator {
+    background: #3a86ff !important;
+  }
+  .tab-section .css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+    border: none !important;
+    background: transparent !important;
+    color: #241042 !important;
+  }
+  .tab-section .MuiTab-root.line-manager-tab.Mui-selected {
+    border: none !important;
+    background: transparent !important;
+    color: #241042 !important;
+  }
+  .tab-section .MuiTab-root.employee-tab.Mui-selected {
+    border: none !important;
+    background: transparent !important;
+    color: #241042 !important;
+  }
+  .hr-right {
+    width: auto;
+  }
+  .hr-info-m1 {
+    left: 0%;
+  }
+  .hr-info-em {
+    left: 0%;
+  }
+  .mob-card02 {
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: -3%;
+    z-index: -1;
+  }
+  .mob-card03 {
+    display: block;
+    display: block;
+    position: absolute;
+    top: 9%;
+    right: -6%;
+    z-index: -2;
+  }
+  .hr-contents {
+    padding: 30px 0px;
+  }
+  .z-card02m1 {
+    display: block;
+    display: block;
+    position: absolute;
+    top: 1%;
+    left: -3%;
+    z-index: -1;
+  }
+  .z-card02m2 {
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: -3%;
+    z-index: -2;
+  }
+  .card02emmob {
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: -2%;
+    z-index: -1;
+  }
+  .card03emmob {
+    display: block;
+    position: absolute;
+    top: 4%;
+    left: -4%;
+    z-index: -2;
+  }
+}

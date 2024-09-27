@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family: "Archivo", sans-serif;
+  --font-family-primary: "Montserrat", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1180px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .container {
+    max-width: 330px;
+  }
+}
